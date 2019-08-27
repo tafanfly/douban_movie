@@ -16,8 +16,8 @@ from wordcloud import WordCloud
 
 REQUEST = requests.session()
 REQUEST_URL = 'https://www.douban.com/'
-FORM_DATA = {'name': '15868857231',
-             'password': 'nbsadmin3#',
+FORM_DATA = {'name': 'XXX',
+             'password': 'XXX',
              'remember': 'false'}
 COMMENT_URL = 'https://movie.douban.com/subject/26581837/comments?start=%s&limit=20&sort=new_score&status=P'
 
